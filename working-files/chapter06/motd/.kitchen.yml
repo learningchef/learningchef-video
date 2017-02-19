@@ -1,0 +1,27 @@
+---
+driver:
+  name: dokken
+  chef_version: latest
+
+transport:
+  name: dokken
+
+provisioner:
+  name: dokken
+
+platforms:
+  - name: centos73
+    driver:
+      image: centos:7.3.1611
+
+verifier:
+  name: inspec
+
+suites:
+  - name: default
+    run_list:
+      - recipe[motd::default]
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:
