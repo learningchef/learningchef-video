@@ -13,9 +13,6 @@ platforms:
   - name: centos73
     driver:
       image: centos:7.3.1611
-  - name: ubuntu1604
-    driver:
-      image: ubuntu:16.04
 
 verifier:
   name: inspec
