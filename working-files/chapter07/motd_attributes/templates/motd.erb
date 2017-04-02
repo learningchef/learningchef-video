@@ -1,0 +1,7 @@
+This node is running on <%= node['virtualization']['system'] %>
+The IP address of this node is <%= node['ipaddress'] %>
+<%= node['motd_attributes']['message'] %>
+Welcome to <%= node['motd_attributes']['company'] %>
+JAVA_HOME on this node is <%= node['motd_attributes']['java_home'] %>
+Java binary is <%= node['motd_attributes']['java_bin'] %>
+Tomcat binary is <%= node['motd_attributes']['tomcat_bin'] %>
