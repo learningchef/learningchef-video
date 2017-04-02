@@ -7,19 +7,21 @@ Chapter 02 Commands - Learning Chef for Linux and macOS
 
 0202 Linux Setup - Installing the ChefDK and Git Source Control
 ===============================================================
-# Chef Downloads
+# Chef Downloads site
 https://downloads.chef.io/chef-dk
 
 # Install ChefDK
 cd ~/Downloads
 ls
-sudo dpkg -i chefdk_1.0.3-1_amd64.deb
+# The video shows chefdk_1.0.3-1_amd64.deb
+# it is recommeded to upgrade to 1.1.16 with better Docker support
+sudo dpkg -i chefdk_1.1.16-1_amd64.deb
 
 # ChefDK contents
 /opt/chefdk/bin - tool binaries
-/usr/bin - soft links to tool binaries
 /opt/chefdk/embedded - Ruby scripting engine
 /opt/chefdk/gitbin - Git source control
+/usr/bin - soft links to tool binaries
 
 # Omnibus Install
 https://github.com/chef/omnibus
@@ -40,6 +42,7 @@ which ruby
 chef shell-init
 echo 'eval "$(chef shell-init bash)"' >> ~/.bashrc
 cat ~/.bashrc
+# close and open terminal app
 which git
 which ruby
 git --version
@@ -72,9 +75,9 @@ https://downloads.chef.io/chef-dk
 
 # ChefDK contents
 /opt/chefdk/bin - tool binaries
-/usr/bin - soft links to tool binaries
 /opt/chefdk/embedded - Ruby scripting engine
 /opt/chefdk/gitbin - Git source control
+/usr/bin - soft links to tool binaries
 
 # Omnibus Install
 https://github.com/chef/omnibus
