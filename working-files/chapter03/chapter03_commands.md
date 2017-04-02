@@ -33,6 +33,8 @@ cd hello
 ls
 cookstyle hello.rb
 
+# Run atom and create various errors to show in cookstyle
+
 0305 Running Cookstyle within Atom
 ==================================
 # Install base linter package in Atom
@@ -41,7 +43,7 @@ apm install linter
 # Configure RuboCop in Atom
 atom
 # Install linter-rubocop package
-# Change default RuboCop command to:
+# Change default RuboCop command settings to:
 /opt/chefk/bin/cookstyle
 
 # Load hello.rb in Atom
@@ -68,8 +70,8 @@ more hello.txt
 rm hello.txt
 inspec exec hello_test.rb
 
-# InSpec documentation URL
-https://docs.chef.io/inspec_reference.html
+# InSpec Resources Reference
+http://inspec.io/docs/reference/resources/
 
 # Fix the error
 chef-apply hello.rb
@@ -110,6 +112,7 @@ more $HOME/stone.txt
 cd hello
 ls
 atom stone.rb
+# Clear out the contents
 chef-apply stone.rb
 more ~/stone.txt
 ls ~/stone.txt
@@ -139,6 +142,6 @@ https://github.com/facebook/chef-cookbooks/
 # Scaling systems configuration at Facebook - Phil Dibowitz
 https://www.youtube.com/watch?v=SYZ2GzYAw_Q
 
-0309 Conclusion
-===============
+0309 Wrapping Up
+================
 # No commands
