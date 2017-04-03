@@ -1,0 +1,7 @@
+source 'https://supermarket.chef.io'
+
+metadata
+
+cookbook 'atom', path: '../atom'
+cookbook 'git', path: '../git'
+cookbook 'chefdk', path: '../chefdk'

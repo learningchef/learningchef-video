@@ -1,0 +1,11 @@
+name: chef_workstation_cp
+title: Chef Development Workstation compliance Profile
+maintainer: Mischa Taylor
+copyright: The Authors
+copyright_email: mischa@misheska.com
+license: Apache 2 license
+summary: Minimum required configuration for Chef Development
+version: 1.0.0
+supports:
+  - os-family: unix
+  - os-family: darwin
