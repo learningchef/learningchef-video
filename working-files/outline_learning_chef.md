@@ -156,9 +156,10 @@ Learning Chef (for Linux and macOS) - Course Outline
   1411 Wrapping up
 
 15. Troubleshooting Chef
-  1501 Introducing chef-shell - attribute spelunking
-  1502 Interactive debugging with chef-shell
-  1503 Profiling
-  1504 Wrapping up
+  1501 Troubleshooting Chef
+  1502 Introducing chef-shell - Attribute Spelunking
+  1503 Breakpoints in Chef
+  1504 Profiling
+  1505 Wrapping Up
 
 16. Where to go next
